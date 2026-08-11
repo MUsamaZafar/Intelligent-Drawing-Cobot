@@ -1,5 +1,11 @@
 # Intelligent Drawing Cobot
 
+<p align="center">
+  <img src="images/cobot_banner.png"
+       alt="Intelligent Drawing Cobot"
+       width="900">
+</p>
+
 A collaborative robotic drawing system developed as a BSc Mechatronics & Control Engineering capstone project at the University of Engineering & Technology (UET), Lahore.
 
 The project investigates **human–robot interaction using admittance control**, allowing a user to physically guide a robotic manipulator through a desired trajectory. The demonstrated trajectory can then be processed using **curve fitting** and reproduced by the robot as a refined analytical shape.
