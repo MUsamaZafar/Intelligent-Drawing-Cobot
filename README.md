@@ -52,7 +52,26 @@ The architecture was designed to allow a user to demonstrate a task through phys
 
 ## Control Methodology
 
-*Admittance control, kinematics and position-control methodology will be added here.*
+The control framework combined **admittance control, robotic kinematics, and closed-loop position control** to translate physical human interaction into controlled manipulator motion.
+
+In the admittance-control approach, force applied by the user acts as the input to the system, while the resulting motion of the manipulator forms the response. The desired displacement is determined according to the selected virtual mechanical characteristics, including stiffness and damping, allowing the robot to respond compliantly to external interaction.
+
+### Admittance Control Architecture
+
+<p align="center">
+  <img src="images/02_admittance_control_architecture.png"
+       alt="Admittance Control Architecture"
+       width="700">
+</p>
+
+<p align="center">
+  <i>Figure 2. Admittance-control architecture used to translate physical force input into commanded manipulator motion.</i>
+</p>
+
+The resulting Cartesian-space motion commands were converted into joint-space variables using **inverse kinematics**. Position feedback from the manipulator was then used within a **PID-based position-control loop** to drive the joints towards the required positions.
+
+This created a closed interaction loop in which sensor measurements, admittance behaviour, kinematic transformations, and motor control worked together to produce controlled motion in response to user-applied force.
+
 
 ## Simulation
 
