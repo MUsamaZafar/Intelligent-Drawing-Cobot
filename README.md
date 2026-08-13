@@ -202,7 +202,6 @@ My primary contributions focused on the **physical implementation and technical 
 * Hardware wiring and integration of the robotic system
 * Mechanical assembly of the manipulator and associated components
 * Support during initial hardware testing and experimental development
-* Practical work with the physical robotic platform and mechanical components
 * Supporting contributions to Arduino-based implementation
 * Preparation, organisation, and technical editing of the final project report
 * Integration of technical material, experimental results, diagrams, and team contributions into a structured engineering document
@@ -230,7 +229,7 @@ This multidisciplinary project provided practical experience in integrating mech
 * Admittance Control
 * PID Position Control
 * Forward & Inverse Kinematics
-* Robot Dynamics
+* Robotic Manipulator Modelling
 * Trajectory Generation
 * Curve Fitting
 
@@ -243,6 +242,16 @@ This multidisciplinary project provided practical experience in integrating mech
 * DC Motor Actuation
 * Sensor Integration
 * Human–Robot Interaction
+
+---
+
+## Project Documentation
+
+The complete academic project report is available in this repository:
+
+**[View Final Project Report](docs/final-project-report.pdf)**
+
+The report contains the complete project methodology, system design, simulation development, hardware implementation, experimental results, and supporting technical documentation.
 
 ---
 
