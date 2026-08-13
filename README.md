@@ -181,10 +181,26 @@ Physical testing demonstrated the response of the manipulator to externally appl
 
 Together with the simulation and curve-fitting results, these experiments demonstrated the integration of **human–robot interaction, compliant motion control, trajectory processing, and physical robotic actuation** within the developed system.
 
-
 ## My Contributions
 
-*Individual project contributions will be documented here.*
+This project was completed as part of a **three-member capstone team**, with responsibilities distributed across mechanical/hardware development, embedded programming, simulation, and technical documentation.
+
+My primary contributions focused on the **physical implementation and technical documentation** of the project, including:
+
+* Hardware wiring and integration of the robotic system
+* Mechanical assembly of the manipulator and associated components
+* Support during initial hardware testing and experimental development
+* Practical work with the physical robotic platform and mechanical components
+* Supporting contributions to Arduino-based implementation
+* Preparation, organisation, and technical editing of the final project report
+* Integration of technical material, experimental results, diagrams, and team contributions into a structured engineering document
+
+Physical development of the project was significantly affected by **COVID-19 restrictions**, which prevented continued access to the university laboratory and robotic hardware. Following discussions with the academic supervisors, the project therefore placed greater emphasis on simulation and software-based development during the remaining project period.
+
+Within the team, the simulation and Simulink modelling were primarily developed by another team member, while another member led much of the Arduino programming. My role remained concentrated on the **hardware/mechanical implementation, early physical testing, supporting embedded work, and technical documentation**.
+
+This multidisciplinary project provided practical experience in integrating mechanical, electronic, embedded, and software components within a collaborative robotics application.
+
 
 ## Technologies & Engineering Concepts
 
