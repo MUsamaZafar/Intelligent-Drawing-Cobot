@@ -237,11 +237,33 @@ This multidisciplinary project provided practical experience in integrating mech
 Intelligent-Drawing-Cobot/
 │
 ├── README.md
+│
 ├── docs/
+│   └── final-project-report.pdf
+│
 └── images/
-    └── selected-project-figures/
+    ├── cobot_banner.png
+    ├── 01_project_workflow.png
+    ├── 02_admittance_control_architecture.png
+    ├── 03_simscape_robot_model.png
+    ├── 04_simulink_control_model.png
+    ├── 05_admittance_simulation_result.png
+    ├── 06_shape_curve_fitting.png
+    └── 07_hardware_testing.png
+
 ```
 
-## Academic Context
+:::writing{variant="document" id="41826" title="Academic & Project Context"}
+## Academic & Project Context
 
-This project was completed as the final-year capstone project for the **Bachelor of Mechatronics & Control Engineering** degree at the **University of Engineering & Technology (UET), Lahore**.
+| Category | Details |
+|---|---|
+| **Degree** | Bachelor of Mechatronics & Control Engineering |
+| **University** | University of Engineering & Technology (UET), Lahore |
+| **Project Type** | Final-Year Capstone Project |
+| **Project** | Intelligent Drawing Cobot |
+| **Team Size** | 3 Members |
+| **Project Advisor** | Dr. Abbas Zulqarnain |
+
+This repository presents the project as a **team-based academic engineering project**. Individual responsibilities are described separately in the **My Contributions** section above.
+:::
