@@ -28,6 +28,8 @@ The system combines:
 
 The overall objective was to demonstrate a simple **learning-by-demonstration approach**, where a user guides the robot along a trajectory and the system subsequently reproduces a refined version of the intended shape.
 
+---
+
 ## System Architecture
 
 The Intelligent Drawing Cobot was developed around a **2-DOF planar robotic manipulator** designed to support physical human–robot interaction and trajectory learning.
@@ -50,6 +52,8 @@ The overall workflow therefore connects **human input, sensing, robotic motion, 
 
 The architecture was designed to allow a user to demonstrate a task through physical interaction rather than requiring the complete trajectory to be programmed manually. The demonstrated motion provides the basis for generating a refined trajectory that can subsequently be reproduced by the manipulator.
 
+---
+
 ## Control Methodology
 
 The control framework combined **admittance control, robotic kinematics, and closed-loop position control** to translate physical human interaction into controlled manipulator motion.
@@ -71,6 +75,8 @@ In the admittance-control approach, force applied by the user acts as the input 
 The resulting Cartesian-space motion commands were converted into joint-space variables using **inverse kinematics**. Position feedback from the manipulator was then used within a **PID-based position-control loop** to drive the joints towards the required positions.
 
 This created a closed interaction loop in which sensor measurements, admittance behaviour, kinematic transformations, and motor control worked together to produce controlled motion in response to user-applied force.
+
+---
 
 ## Simulation
 
@@ -120,6 +126,8 @@ The complete simulation connected the desired trajectory, admittance-control cal
 
 The simulation demonstrated the manipulator responding to externally applied forces while following the motion generated through the control framework. The resulting response provided a basis for evaluating the proposed approach before progressing to experimental implementation on the physical robot.
 
+---
+
 ## Hardware Implementation
 
 The physical implementation was based on the **Serpent-I robotic manipulator**, configured as a two-degree-of-freedom planar system for collaborative drawing experiments.
@@ -144,6 +152,8 @@ Sensor measurements were sampled and processed before being passed through the c
 Safety constraints were also incorporated into the controller to limit command values before they were applied to the motors and associated drive electronics.
 
 The physical platform provided the experimental basis for evaluating how user-applied force could produce controlled manipulator displacement and how the robot behaved when returning towards its reference position.
+
+---
 
 ## Results
 
@@ -181,6 +191,8 @@ Physical testing demonstrated the response of the manipulator to externally appl
 
 Together with the simulation and curve-fitting results, these experiments demonstrated the integration of **human–robot interaction, compliant motion control, trajectory processing, and physical robotic actuation** within the developed system.
 
+---
+
 ## My Contributions
 
 This project was completed as part of a **three-member capstone team**, with responsibilities distributed across mechanical/hardware development, embedded programming, simulation, and technical documentation.
@@ -200,6 +212,8 @@ Physical development of the project was significantly affected by **COVID-19 res
 Within the team, the simulation and Simulink modelling were primarily developed by another team member, while another member led much of the Arduino programming. My role remained concentrated on the **hardware/mechanical implementation, early physical testing, supporting embedded work, and technical documentation**.
 
 This multidisciplinary project provided practical experience in integrating mechanical, electronic, embedded, and software components within a collaborative robotics application.
+
+---
 
 ## Technologies & Engineering Concepts
 
@@ -230,6 +244,7 @@ This multidisciplinary project provided practical experience in integrating mech
 * Sensor Integration
 * Human–Robot Interaction
 
+---
 
 ## Repository Structure
 
@@ -252,6 +267,7 @@ Intelligent-Drawing-Cobot/
     └── 07_hardware_testing.png
 
 ```
+---
 
 ## Academic & Project Context
 
