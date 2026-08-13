@@ -201,22 +201,35 @@ Within the team, the simulation and Simulink modelling were primarily developed 
 
 This multidisciplinary project provided practical experience in integrating mechanical, electronic, embedded, and software components within a collaborative robotics application.
 
-
 ## Technologies & Engineering Concepts
 
-- MATLAB
-- Simulink
-- Simscape
-- Arduino / ATmega2560
-- C/C++ Embedded Programming
-- Admittance Control
-- PID Control
-- Forward & Inverse Kinematics
-- Robot Dynamics
-- Curve Fitting
-- Human–Robot Interaction
-- Sensor Integration
-- DC Motor Control
+### Software & Embedded Systems
+
+* MATLAB
+* Simulink
+* Simscape
+* Arduino / ATmega2560
+* Embedded Programming
+
+### Robotics & Control
+
+* Admittance Control
+* PID Position Control
+* Forward & Inverse Kinematics
+* Robot Dynamics
+* Trajectory Generation
+* Curve Fitting
+
+### Hardware & Integration
+
+* Mechanical Assembly
+* Hardware Wiring & Integration
+* Force-Sensitive Resistors (FSRs)
+* Encoder Feedback
+* DC Motor Actuation
+* Sensor Integration
+* Human–Robot Interaction
+
 
 ## Repository Structure
 
