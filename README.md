@@ -30,7 +30,25 @@ The overall objective was to demonstrate a simple **learning-by-demonstration ap
 
 ## System Architecture
 
-*System architecture and control workflow will be added here.*
+The Intelligent Drawing Cobot was developed around a **2-DOF planar robotic manipulator** designed to support physical human–robot interaction and trajectory learning.
+
+The system follows a learning-by-demonstration approach in which force applied by the user is interpreted through the admittance-control framework and converted into commanded manipulator motion. Position and force measurements provide feedback during interaction, while the demonstrated trajectory can subsequently be processed using curve fitting to obtain a refined path for autonomous reproduction.
+
+The overall workflow therefore connects **human input, sensing, robotic motion, trajectory acquisition, curve fitting, and automated trajectory reproduction**.
+
+### Project Workflow
+
+<p align="center">
+  <img src="images/01_project_workflow.png"
+       alt="Intelligent Drawing Cobot Project Workflow"
+       width="700">
+</p>
+
+<p align="center">
+  <i>Figure 1. Overall workflow of the Intelligent Drawing Cobot, from physical human input to trajectory processing and robotic reproduction.</i>
+</p>
+
+The architecture was designed to allow a user to demonstrate a task through physical interaction rather than requiring the complete trajectory to be programmed manually. The demonstrated motion provides the basis for generating a refined trajectory that can subsequently be reproduced by the manipulator.
 
 ## Control Methodology
 
