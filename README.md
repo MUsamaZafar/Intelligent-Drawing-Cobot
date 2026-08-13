@@ -253,7 +253,6 @@ Intelligent-Drawing-Cobot/
 
 ```
 
-:::writing{variant="document" id="41826" title="Academic & Project Context"}
 ## Academic & Project Context
 
 | Category | Details |
@@ -266,4 +265,4 @@ Intelligent-Drawing-Cobot/
 | **Project Advisor** | Dr. Abbas Zulqarnain |
 
 This repository presents the project as a **team-based academic engineering project**. Individual responsibilities are described separately in the **My Contributions** section above.
-:::
+
