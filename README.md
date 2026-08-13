@@ -145,10 +145,42 @@ Safety constraints were also incorporated into the controller to limit command v
 
 The physical platform provided the experimental basis for evaluating how user-applied force could produce controlled manipulator displacement and how the robot behaved when returning towards its reference position.
 
-
 ## Results
 
-*Simulation, curve-fitting and experimental results will be added here.*
+The project evaluated the proposed collaborative drawing approach through both **simulation and physical hardware experiments**. The results demonstrated the relationship between human-guided motion, trajectory processing, and subsequent robotic reproduction of the intended shape.
+
+### Shape Learning & Curve Fitting
+
+<p align="center">
+  <img src="images/06_shape_curve_fitting.png"
+       alt="Shape Learning and Curve Fitting Results"
+       width="700">
+</p>
+
+<p align="center">
+  <i>Figure 6. Shape-learning and curve-fitting results demonstrating the processing of user-guided trajectories into refined geometric paths.</i>
+</p>
+
+User-guided trajectories generated through physical interaction were processed using curve-fitting techniques to obtain cleaner analytical representations of the intended shapes. The project investigated this approach using geometric trajectories including **circular and rectangular paths**.
+
+This demonstrated the learning-by-demonstration concept at the centre of the project: rather than requiring every trajectory to be manually programmed, a path could first be demonstrated through interaction, processed computationally, and subsequently used as a reference for robotic reproduction.
+
+### Physical Hardware Testing
+
+<p align="center">
+  <img src="images/07_hardware_testing.png"
+       alt="Physical Testing of the Intelligent Drawing Cobot"
+       width="700">
+</p>
+
+<p align="center">
+  <i>Figure 7. Physical hardware experiments demonstrating force application, manipulator displacement, and return towards the reference position.</i>
+</p>
+
+Physical testing demonstrated the response of the manipulator to externally applied force. The hardware experiments examined the displacement produced by physical interaction and the subsequent behaviour of the manipulator as it returned towards its reference position.
+
+Together with the simulation and curve-fitting results, these experiments demonstrated the integration of **human–robot interaction, compliant motion control, trajectory processing, and physical robotic actuation** within the developed system.
+
 
 ## My Contributions
 
