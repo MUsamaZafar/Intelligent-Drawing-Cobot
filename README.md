@@ -120,10 +120,31 @@ The complete simulation connected the desired trajectory, admittance-control cal
 
 The simulation demonstrated the manipulator responding to externally applied forces while following the motion generated through the control framework. The resulting response provided a basis for evaluating the proposed approach before progressing to experimental implementation on the physical robot.
 
-
 ## Hardware Implementation
 
-*Physical Serpent-I robot implementation will be added here.*
+The physical implementation was based on the **Serpent-I robotic manipulator**, configured as a two-degree-of-freedom planar system for collaborative drawing experiments.
+
+The embedded control system used an **Arduino Mega 2560 (ATmega2560)** to acquire sensor measurements and generate commands for the manipulator. Force-sensitive resistors provided information about physical interaction with the user, while encoder feedback was used to determine the position of the robotic joints.
+
+### Hardware & Embedded Control
+
+Key components of the experimental system included:
+
+* Serpent-I robotic manipulator
+* Arduino Mega 2560 / ATmega2560
+* DC motors and motor drivers
+* Force-sensitive resistors (FSRs)
+* Joint-position encoders
+* Limit switches
+* Embedded motor-control routines
+* Mechanical drawing end-effector
+
+Sensor measurements were sampled and processed before being passed through the control calculations. The resulting desired motion was converted into joint-space commands and ultimately into PWM signals for motor actuation.
+
+Safety constraints were also incorporated into the controller to limit command values before they were applied to the motors and associated drive electronics.
+
+The physical platform provided the experimental basis for evaluating how user-applied force could produce controlled manipulator displacement and how the robot behaved when returning towards its reference position.
+
 
 ## Results
 
